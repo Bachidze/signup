@@ -32,7 +32,7 @@ function App() {
     <>
     <main className='xl:flex xl:w-[75%]  m-auto justify-between items-center h-[100vh]'>
 
-      <section className='flex justify-center flex-col text-center m mt-[88px] mb-[64px] xl:mb-0'>
+      <section className='flex justify-center flex-col text-center  mt-[88px] mb-[64px] xl:mb-0'>
         <h1 className='text-[28px] text-white font-bold w-[327px] m-auto  leading-[36px] mb-4 xl:text-[50px] xl:leading-[55px] xl:w-[525px] xl:text-left'>Learn to code by watching others</h1>
         <p className='text-white text-center text-[18px]  leading-[26px] w-[327px] m-auto xl:text-[16px] xl:w-[525px] xl:text-left'>
           See how experienced developers solve problems in 
@@ -45,7 +45,7 @@ function App() {
       <div className='mb-[24px] w-[327px] bg-[#5E54A4] h-auto pt-4 pb-4 pl-[67px] pr-[67px] rounded-[15px] shadow-xl xl:w-[540px]'>
           <h3 className='text-[15px] leading-[26px] text-white w-[194px] m-auto text-center xl:w-[100%]'><span className='font-bold'>Try it free 7 days</span> then $20/mo. thereafter</h3>
         </div>
-        <div className='bg-white p-6 rounded-[10px]  flex flex-col justify-center items-center shadow-2xl xl:w-[540px] xl:p-10'>
+        <div className='bg-white p-6 rounded-[10px] mb-[70px]   flex flex-col justify-center items-center shadow-2xl xl:w-[540px] xl:p-10 xl:mb-0'>
           <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-4 xl:gap-5'>
             
               
