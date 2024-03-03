@@ -30,11 +30,11 @@ function App() {
 
   return (
     <>
-    <main className='xl:flex w-[75%]  m-auto justify-between items-center h-[100vh]'>
+    <main className='xl:flex xl:w-[75%]  m-auto justify-between items-center h-[100vh]'>
 
-      <section className='flex justify-center flex-col text-center mt-[88px] mb-[64px] xl:mb-0'>
-        <h1 className='text-[28px] text-white font-bold w-[327px] m-auto leading-[36px] mb-4 xl:text-[50px] xl:leading-[55px] xl:w-[525px] xl:text-left'>Learn to code by watching others</h1>
-        <p className='text-white text-center text-[18px] leading-[26px] w-[327px] m-auto xl:text-[16px] xl:w-[525px] xl:text-left'>
+      <section className='flex justify-center flex-col text-center m mt-[88px] mb-[64px] xl:mb-0'>
+        <h1 className='text-[28px] text-white font-bold w-[327px] m-auto  leading-[36px] mb-4 xl:text-[50px] xl:leading-[55px] xl:w-[525px] xl:text-left'>Learn to code by watching others</h1>
+        <p className='text-white text-center text-[18px]  leading-[26px] w-[327px] m-auto xl:text-[16px] xl:w-[525px] xl:text-left'>
           See how experienced developers solve problems in 
           real-time. Watching scripted tutorials is great,
           but understanding how developers think is invaluable.
