@@ -41,7 +41,7 @@ function App() {
         </p>
       </section>
 
-      <section className='flex flex-col justify-center items-center mb-[88px] xl:mb-0'>
+      <section className='flex flex-col  justify-center items-center mb-[88px] xl:mb-0'>
       <div className='mb-[24px] w-[327px] bg-[#5E54A4] h-auto pt-4 pb-4 pl-[67px] pr-[67px] rounded-[15px] shadow-xl xl:w-[540px]'>
           <h3 className='text-[15px] leading-[26px] text-white w-[194px] m-auto text-center xl:w-[100%]'><span className='font-bold'>Try it free 7 days</span> then $20/mo. thereafter</h3>
         </div>
@@ -50,19 +50,19 @@ function App() {
             
               
               <input  className='w-[279px] h-[56px] placeholder:text-[#3D3B48] pl-[19.41px] text-[14px] leading-[26px] font-semibold  border-2 rounded-[5px] xl:w-[460px] ' type="text" placeholder='First Name' {...register('firstname')} />
-              {errors.firstname && <p className='text-[red] h-[10px] relative bottom-3'>{errors.firstname.message}</p>}
+              {errors.firstname && <p className='text-[red] h-[10px] relative bottom-3 italic'>{errors.firstname.message}</p>}
             
               
               <input  className='w-[279px] h-[56px] placeholder:text-[#3D3B48] pl-[19.41px] text-[14px] leading-[26px] font-semibold  border-2 rounded-[5px] xl:w-[460px] ' type="text" placeholder='Last Name' {...register('lastname')} />
-              {errors.lastname && <p className='text-[red]  h-[10px] relative bottom-3'>{errors.lastname.message}</p>}
+              {errors.lastname && <p className='text-[red]  h-[10px] relative bottom-3 italic'>{errors.lastname.message}</p>}
             
               
               <input  className='w-[279px] h-[56px] placeholder:text-[#3D3B48] pl-[19.41px] text-[14px] leading-[26px] font-semibold  border-2 rounded-[5px] xl:w-[460px] ' type="email" placeholder='Email' {...register('email')} />
-              {errors.email && <p className='text-[red] h-[10px] relative bottom-3'>{errors.email.message}</p>}
+              {errors.email && <p className='text-[red] h-[10px] relative bottom-3 italic'>{errors.email.message}</p>}
             
               
               <input  className='w-[279px] h-[56px] placeholder:text-[#3D3B48] pl-[19.41px] text-[14px] leading-[26px] font-semibold  border-2 rounded-[5px] xl:w-[460px] ' type="password" placeholder='Password' {...register('password')} />
-              {errors.password && <p className='text-[red] h-[10px] relative bottom-3'>{errors.password.message}</p>}
+              {errors.password && <p className='text-[red] h-[10px] relative bottom-3 italic'>{errors.password.message}</p>}
             <button className='w-[279px] h-[56px]  border-2 rounded-[5px] text-white leading-[26px] text-[15px] font-semibold bg-[#38CC8B] cursor-pointer xl:w-[460px]  ' type='submit'>CLAIM YOUR FREE TRIAL</button>
           </form>
           <p className='w-[219px] m-auto pt-2 text-center text-[11px] xl:w-[100%]'>By clicking the button, you are agreeing to our <span className='text-[#FF7979] font-bold'>Terms and Services</span></p>
